@@ -1,0 +1,77 @@
+@CHARSET "UTF-8";
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: "Microsoft Yahei", Verdana, Arial, Helvetica, sans-serif;
+	background-color:#9cfeff;
+}
+.leftMenu {
+    width:300px;
+	margin:30px;
+	margin-left: 0px;
+
+}
+.menu {
+	border: #bdd7f2 1px solid;
+	border-top: #0080c4 4px solid;
+	border-bottom: #0080c4 4px solid;
+	background: #79CDCD repeat-y right;
+	margin-left: 0px;
+}
+.menu .ListTitle {
+	border-bottom: 1px #79CDCD solid;
+	display: block;
+	text-align: center;
+	/*position: relative;*/
+	height: 38px;
+	line-height: 38px;
+	cursor: pointer;
+	/*+min-width:220px;*/
+
+	+width:100%;
+}
+.ListTitlePanel {
+	position: relative;
+	
+}
+.leftbgbt {
+	position: absolute;
+	background: no-repeat;
+	width: 11px;
+	height: 52px;
+	left: -11px;
+	top: -4px;
+}
+
+.leftbgbt2 {
+	position: absolute;
+	background: no-repeat;
+	width: 11px;
+	height: 48px;
+	left: -11px;
+	top: -1px;
+}
+.menuList {
+	display: block;
+	height: auto;
+}
+.menuList div {
+	height: 28px;
+	line-height: 24px;
+	border-bottom: 1px #98c9ee dotted;
+}
+.menuList div a {
+	display: block;
+	background: #fff;
+	line-height: 28px;
+	height: 28px;
+	text-align: center;
+	color: #185697;
+	text-decoration: none;
+}
+.menuList div a:hover {
+	color: #f30;
+	background: #79CDCD;
+	color: #fff;
+}

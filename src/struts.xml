@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<package name="default" extends="struts-default">
+<action name="LoginAction" class="com.action.DengluAction">
+	<result name="success">success.jsp</result>
+	<result name="ADMINPAGE">/main.jsp</result>
+	<result name="USERPAGE">/main_user.jsp</result>
+	<result name="ALTERSUCCESS">/login.jsp</result>
+	<result name="userlistadmin">/userpow.jsp</result>
+	<result name="error">error.html</result>
+</action>
+
+<action name="RegisterAction" class="com.action.RegisterAction">
+<result name="USER">/success.jsp</result>
+<result name="ERRORREGISTER">/error.html</result>
+	
+</action>
+
+<action name="ZdxuqiuAction" class="com.action.ZdxuqiuAction">
+<result name="success">/tianbaosuccessful.jsp</result>
+<result name="zdxuqiulist">/listneeduser.jsp</result>
+<result name="zdxuqiulistadmin">/listneed.jsp</result>
+<result name="DetailSUCCESS">/detail.jsp</result>
+<result name="CHECKED">/listneed.jsp</result>
+</action>
+</package>
+</struts>    
